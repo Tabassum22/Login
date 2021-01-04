@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(116, 134, 235);
+}
+h1{
+    text-transform:uppercase;
+}
+h4{
+    text-transform: uppercase;
+}
+.text-center{
+    color: rgb(240, 221, 240);
+    text-align: center;
+    text-decoration: none;
+}
+.text-right{
+    text-align: right;
+    display:block;
+    text-decoration: none;
+}
+.Signup-form{
+   width: 400px;
+   margin-top: 100px;
+border: 3px solid lightgray;
+padding:64px;
+margin:0 auto;
+background-color: white;
+box-shadow: 5px 8px lightgray;
+border-radius:1cm;
+}
+.form-control{
+    display:block;
+    width: 300px;
+    margin: 0 auto;
+    height:32px;
+    border: 2px solid rgb(131, 129, 235);
+    border-radius: 5%;
+}
+.btn-submit{
+    display: block;
+    background-color:rgb(61, 136, 221);
+    padding: 8px 16px;
+    border:3px solid lightgrey;
+    border-radius: 20%;
+    margin:0 auto;
+    margin-top: 16px;
+}
